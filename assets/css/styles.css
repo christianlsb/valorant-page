@@ -6,6 +6,10 @@
   text-decoration: none;
   font-family: "Roboto Mono", monospace;
 
+  body.overlay-active {
+    overflow: hidden;
+  }
+
   ::-webkit-scrollbar {
     width: 10px;
   }
@@ -14,6 +18,11 @@
     background-color: #fb5c6c;
     border-radius: 5px;
   }
+}
+
+.rotate {
+  transform: rotate(90deg);
+  transition: transform 0.3s ease;
 }
 
 h1 {
