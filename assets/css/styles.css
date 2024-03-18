@@ -58,6 +58,29 @@ h2 {
   }
 }
 
+.send-button {
+  width: 268px;
+  margin: 10px auto;
+  background-color: transparent;
+  height: 68px;
+  border: 1px solid hsla(38, 22%, 90%, 0.5);
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.send-button span {
+  background-color: #0f1923;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: #ece8e1;
+  padding: 20px 80px;
+  font-size: 0.875rem;
+  &:hover {
+    -webkit-transition: background-color 0.3s ease-in;
+    transition: background-color 0.3s ease-in;
+  }
+}
+
 .grid {
   max-width: 1200px;
   margin: 0 auto;
